@@ -1,0 +1,33 @@
+Definição:
+nb ^ power → nb multiplicado por ele mesmo "power" vezes.
+
+
+Exemplos:
+    2 ^ 3 → 2 × 2 × 2 = 8
+    5 ^ 0 → 1 (qualquer número elevado a zero dá 1)
+    3 ^ 1 → 3
+    0 ^ 0 → definido como 1 nesse exercício específico
+
+ANALOGIA:
+Pensar em nb ^ power é como dizer:
+"power" é  “pega o número nb, e repetir a multiplicação power 
+vezes por ele mesmo.” e retornar o resultado dessa repetida
+multiplicação.
+
+
+ft_iterative_power — Potência com loop
+✅ Pontos positivos:
+🔹 Mais eficiente em tempo de execução
+🔹 Usa menos memória (sem empilhar chamadas)
+🔹 Ideal para valores grandes, evita stack overflow
+🔹 Fácil de controlar e depurar passo a passo
+
+❌ Pontos negativos:
+🔸 Menos elegante para representar definição matemática
+🔸 Pode ficar mais verboso em alguns contextos
+
+🧩 Quando usar:
+    Em sistemas com restrição de memória
+    Quando o foco é performance e robustez
+    Em ambientes embarcados ou microcontroladores
+    Em situações onde recursão é desnecessária ou arriscada

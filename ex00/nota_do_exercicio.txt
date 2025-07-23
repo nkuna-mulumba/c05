@@ -25,3 +25,21 @@ PARA CALCULAR FACTORIAL DE UM NUMERO:
 * Se for 0 → o resultado é 1 (por definição: 0! = 1)
 * Se for positivo → multiplica ele por todos os números menores até 1
 * Retorna o resultado acumulado dessa multiplicação
+
+
+ITERATIVA (ft_iterative_factorial)
+Vantagens:
+🔹 Mais rápida na execução (não depende de chamadas de função)
+🔹 Mais eficiente em memória (não usa a pilha de chamadas)
+🔹 Fácil de controlar loops e evitar erros
+
+Desvantagens:
+🔸 Menos elegante para expressar lógica matemática
+🔸 Pode ficar verbosa em casos mais complexos
+🔸 Menos intuitiva para quem pensa em definições matemáticas
+
+
+🧩 Quando usar?
+* Em sistemas embarcados ou com restrição de memória
+* Quando performance é prioridade
+* Para evitar risco de stack overflow com valores altos

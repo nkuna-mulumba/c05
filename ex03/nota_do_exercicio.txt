@@ -1,0 +1,17 @@
+
+🔁 ft_recursive_power — Potência com recursão
+✅ Pontos positivos:
+🔹 Código mais curto e elegante
+🔹 Reflete diretamente a definição de potência matemática
+🔹 Ótimo para estudar ou ensinar recursão
+
+❌ Pontos negativos:
+🔸 Pode causar stack overflow em potências muito grandes
+🔸 Menos eficiente em tempo e uso de recursos
+🔸 Requer caso base claro para evitar chamadas infinitas
+
+🧩 Quando usar:
+    Em contextos didáticos ou acadêmicos
+    Quando o problema é naturalmente recursivo
+    Para pequenos valores de power
+    Quando clareza matemática importa mais que performance

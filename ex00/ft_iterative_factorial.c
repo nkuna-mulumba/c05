@@ -26,20 +26,20 @@
 */
 int ft_iterative_factorial(int nb)
 {
-    unsigned int    result;
+    unsigned int    factorial;
     //nb = 3;
     if (nb < 0)
     {
         return(0);
     }
 
-    result = 1;
+    factorial = 1;
     while (nb > 0)
     {
-        result = result * nb;//1*3=3, 3*2=6, 6*1=6; 
+        factorial = factorial * nb;//1*3=3, 3*2=6, 6*1=6; 
         nb--;//2, 1, 0
     }
-    return(result);//6
+    return(factorial);//6
 }
 
 /*

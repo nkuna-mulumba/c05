@@ -1,0 +1,20 @@
+
+RECURSIVA (ft_recursive_factorial)
+✅ Vantagens:
+🔹 Código mais curto e elegante
+🔹 Reflete diretamente a definição matemática
+🔹 Facilita visualização lógica em problemas matemáticos
+
+❌ Desvantagens:
+🔸 Usa mais memória (pela pilha de chamadas)
+🔸 Pode causar stack "overflow" em valores grandes
+🔸 Levemente mais lenta em execução
+
+🧩 Quando usar?
+* Em exercícios teóricos, algoritmos puros ou estudos
+* Quando clareza e legibilidade são mais importantes que performance
+* Em situações onde o próprio problema é recursivo por natureza
+
+Em resumo:
+- Se quiser velocidade e eficiência: vai com a iterativa
+- Se quiser elegância e lógica matemática direta: usa a recursiva
