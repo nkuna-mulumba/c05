@@ -1,0 +1,27 @@
+Conceitos que esse exercício ensina:
+
+🔹 1. Estrutura de repetição while
+Treina como repetir operações até uma condição se tornar falsa
+Ajuda a entender decremento progressivo e multiplicação acumulada
+
+🔹 2. Controle de erro e entrada inválida
+Introduz o conceito de validação de parâmetro
+
+Ensina que casos como nb < 0 devem ser tratados separadamente
+🔹 3. Inicialização de acumulador
+Ensina a usar result = 1 como valor neutro multiplicativo
+
+🔹 4. Pensamento matemático sequencial
+Fatoriais crescem rapidamente → n! = n × (n - 1) × ... × 1
+
+Introduz lógica matemática básica aplicada à programação
+🔹 5. Preparação para recursão
+Ao dominar o iterativo, tu terás a base para entender a versão
+recursiva no próximo exercício.
+
+
+PARA CALCULAR FACTORIAL DE UM NUMERO:
+* Se o número for negativo → não tem fatorial, retorna 0
+* Se for 0 → o resultado é 1 (por definição: 0! = 1)
+* Se for positivo → multiplica ele por todos os números menores até 1
+* Retorna o resultado acumulado dessa multiplicação
