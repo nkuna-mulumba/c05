@@ -1,0 +1,12 @@
+
+O Ten Queens Puzzle é uma variação do clássico problema das N-Queens,
+um desafio lógico e matemático que surgiu há mais de 170 anos no mundo
+do xadrez e da ciência da computação.
+
+♛ O que é o problema das N-Queens?
+O objetivo é colocar N rainhas em um tabuleiro NxN de forma que 
+nenhuma rainha ataque outra.
+
+Como as rainhas se movem em linha reta — horizontal, vertical e diagonal — o
+desafio é encontrar uma configuração onde todas fiquem seguras.
+
