@@ -1,0 +1,67 @@
+
+Exercício famoso “Ten Queens Puzzle” — uma
+variação do problema clássico de Oito Rainhas, só 
+que em um tabuleiro 10×10. Ele trabalha recursão, 
+backtracking e visão espacial, tudo com bisturi 
+lógico
+
+🎯 Objetivo do exercício
+    Encontrar todas as maneiras de colocar 10 damas no tabuleiro 10×10
+    sem que elas se ataquem.
+
+Ou seja:
+    Nenhuma dama pode estar na mesma linha
+    Nem na mesma coluna
+    Nem nas diagonais principais e secundárias
+
+
+Como resolver — passo a passo simples:
+1️⃣ Representação
+    Usa um array int queen[10], onde queen[coluna] = linha
+    Isso significa: “na coluna i, a dama está na linha queen[i]”
+
+2️⃣ Recursão
+    * Começa na coluna 0 e tenta cada linha 0..9
+    * Verifica se pode colocar uma dama sem conflito
+    * Se puder, chama a função para a próxima coluna
+    * Se chegar à coluna 10, imprimi a solução!
+
+3️⃣ Verificação de ataques
+    * Verifica se a nova dama ataca alguma das anteriores:
+    * Mesma linha → queen[i] == linha
+    * Diagonal → abs(queen[i] - linha) == col - i
+
+
+4️⃣ Impressão
+    * A saída deve ser:
+        0257948136$
+    * Onde cada dígito representa a linha da dama na coluna correspondente
+
+
+
+✅ Pontos positivos da função
+   * Treina recursão como bisturi mental 💡
+   * Explora algoritmos de busca e visão lógica
+   * Ótimo para dominar backtracking
+   * Não exige bibliotecas — usa apenas write
+
+
+❌ Pontos desafiadores
+   * O número de soluções é alto (724) — pode demorar
+   * Requer cuidado com diagonais e conflitos
+   * Usar write em vez de printf exige atenção ao formato
+   * Recursão precisa ser bem controlada para evitar sobrecarga
+
+
+
+🧩 Enunciados básicos para praticar antes
+    Se quiser entender melhor antes de resolver com recursão, 
+    aqui vão alguns exercícios preparatórios:
+
+🔹 Exercício 1: Colocar uma dama na coluna 0 e mostrar o tabuleiro
+🔹 Exercício 2: Verificar se uma posição é atacada por outra
+🔹 Exercício 3: Imprimir todas as permutações possíveis de 
+    queen[10] (sem ataques)
+🔹 Exercício 4: Testar recursão com 4 damas no tabuleiro 4×4
+🔹 Exercício 5: Implementar função can_place(int queen[], 
+    int col, int linha) que diz se pode colocar a dama ali

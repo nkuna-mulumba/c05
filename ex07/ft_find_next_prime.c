@@ -67,3 +67,27 @@ int ft_find_next_prime(int nb)
     }
     return(nb);
 }
+
+/*
+    #include <stdio.h>
+    int main(void)
+    {
+        //2->2, 3->3, 4->5, 5->5, 6->7, 
+        int nb = 2;
+        printf("Numero primo superior ou igual a %d é %d\n", nb, ft_find_next_prime(nb));
+        
+        nb = 3;
+        printf("Numero primo superior ou igual a %d é %d\n", nb, ft_find_next_prime(nb));
+        
+        nb = 4;
+        printf("Numero primo superior ou igual a %d é %d\n", nb, ft_find_next_prime(nb));
+        
+        nb = 5;
+        printf("Numero primo superior ou igual a %d é %d\n", nb, ft_find_next_prime(nb));
+        
+        nb = 6;
+        printf("Numero primo superior ou igual a %d é %d\n", nb, ft_find_next_prime(nb));
+
+        return(0);
+    }
+*/

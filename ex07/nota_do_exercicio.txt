@@ -4,10 +4,11 @@ Para que serve este enunciado?
     que o valor passado como parâmetro.
 
 📌 Por exemplo:
-    Entrada: 3 → Saída: 5
-    Entrada: 5 → Saída: 10
-    Entrada: 7 → Saída: 17
-    Entrada: 11 → Saída: 11 (porque já é primo)
+    Entrada: 2 → Saída: 2
+    Entrada: 3 → Saída: 3
+    Entrada: 4 → Saida: 5
+    Entrada: 5 → Saída: 5
+    Entrada: 6 → Saída: 7
 
 🔍 Essa função pode ser usada em:
     Algoritmos de criptografia (como RSA)
