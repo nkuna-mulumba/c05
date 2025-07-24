@@ -36,11 +36,14 @@ int ft_iterative_power(int nb, int power)
     {
         return(0);
     }
-    else if((nb == 0) && (power == 0))
+    if(power == 0)
     {
         return(1);
     }
-    
+    if(nb == 0)
+    {
+        return(0);
+    }
     power_result = 1;
     while(power > 0)//3 > 0; 2 > 0; 1 > 0;
     {
