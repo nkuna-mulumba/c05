@@ -1,0 +1,68 @@
+
+A sequência de Fibonacci é uma sucessão de números 
+em que cada termo é a soma dos dois anteriores, 
+começando assim:
+0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+🔁 O que ela faz?
+Calcula o n-ésimo número da sequência, com base em 
+uma fórmula recursiva:
+
+
+🎯 Para que serve?
+    A sequência de Fibonacci aparece em vários lugares
+    da vida real e da ciência:
+🔹 Matemática: estudo de recursão, séries e lógica
+🔹 Computação: base para estudar algoritmos recursivos
+🔹 Natureza: padrão de crescimento de plantas, conchas, girassóis, galhos
+🔹 Arte e arquitetura: proporções harmônicas e o chamado "número de ouro"
+🔹 Economia: usada em análises de tendência no mercado financeiro
+
+
+"n-ésimo" significa a posição número n em uma sequência.
+📌 Exemplos:
+    1º elemento é o primeiro
+    2º é o segundo
+    3º é o terceiro
+    n-ésimo é... o número que está na posição n
+Então, para achar o “n-ésimo termo da sequência de Fibonacci”,
+está pedindo para saber qual número aparece na posição n, contando a partir de zero.
+
+🔍 Na prática:
+Se n = 5, tu estás buscando o 5º elemento da sequência, ou seja:
+Posições: 0  1  2  3  4  5
+Valores:  0, 1, 1, 2, 3, 5 → resultado: 5
+
+
+
+EXERCICIOS BASICOS para praticar Fibonacci
+1️⃣ Imprimir os primeiros N termos
+    Escreve um programa que recebe um número N e imprime os 
+    primeiros N termos da sequência
+Exemplo: N = 10 → imprime 0 1 1 2 3 5 8 13 21 34
+
+2️⃣ Verificar se um número pertence à sequência
+    Recebe um número X e verifica se ele aparece em Fibonacci
+    Dica: vai gerando os termos até passar de X, e compara
+
+3️⃣ Comparar versão recursiva vs iterativa
+    Implementa ft_fibonacci com recursão
+    Depois faz versão com while (iterativa)
+    Compara tempo e número de chamadas
+
+4️⃣ Mostrar como cada valor é construído
+    Exibe o cálculo:
+    F(4) = F(3) + F(2) → 2 + 1 = 3
+
+5️⃣ Soma dos primeiros N termos
+    Calcula a soma de todos os números de Fibonacci até uma certa posição
+    Exemplo: soma de F(0) a F(5) → 0 + 1 + 1 + 2 + 3 + 5 = 12
+
+6️⃣ Visualizar recursividade com printf()
+    Adiciona printf("Chamando F(%d)\n", index); dentro da função
+    Vê como a função "desce" e "sobe" — como se fosse uma árvore
+
+🧩 Desafios extra (opcional)
+    Fibonacci reverso: imprime os termos de trás pra frente
+    Fibonacci em forma de pirâmide ou triângulo visual
+    Armazena a sequência em um vetor (int fib[50]) e acessa qualquer termo

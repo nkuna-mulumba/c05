@@ -1,0 +1,52 @@
+Para que serve este enunciado?
+    O enunciado propõe escrever uma função 
+    que retorna o próximo número primo, igual ou maior 
+    que o valor passado como parâmetro.
+
+📌 Por exemplo:
+    Entrada: 3 → Saída: 5
+    Entrada: 5 → Saída: 10
+    Entrada: 7 → Saída: 17
+    Entrada: 11 → Saída: 11 (porque já é primo)
+
+🔍 Essa função pode ser usada em:
+    Algoritmos de criptografia (como RSA)
+    Sistemas de geração de chaves aleatórias seguras
+    Problemas de matemática e testes lógicos
+    Simulações que exigem valores primos
+
+
+🎯 Como resolver de maneira mais fácil?:
+    A estratégia mais simples:
+    Verificar se o número atual é primo (ft_is_prime)
+    Se não for, incrementar (nb++)
+    Repetir até encontrar um número primo
+    Retornar esse número
+
+👍 Pontos positivos da função:
+    Simples de implementar com lógica básica
+    Útil em vários contextos numéricos
+    Ótima para praticar loop, condicional, e modularização
+    Pode ser reaproveitada em outras funções matemáticas
+
+👎 Pontos negativos:
+    Pode ser lenta para valores grandes se ft_is_prime não for otimizada
+    Não identifica múltiplos primos — apenas o próximo
+    Dependente de outra função (ft_is_prime), então exige cuidado na organização
+
+
+🧪 Enunciados básicos para praticar:    
+1️⃣ Verificar o próximo primo de um número
+    Dado nb, retorna ft_find_next_prime(nb) e imprime o resultado.
+
+2️⃣ Listar os próximos primos de 0 até N
+    Para cada número entre 0 e N, imprime o próximo primo igual ou maior.
+
+3️⃣ Mostrar sequência de primos sucessivos
+    Imprimir os primeiros 10 primos a partir de um número inicial.
+
+4️⃣ Contar quantas vezes o próximo primo é maior que o valor atual
+    Testa para vários valores e mostra quantas vezes ft_find_next_prime(nb) é maior que nb.
+
+5️⃣ Mostrar a distância até o próximo primo
+    Imprime quantos números foram pulados até encontrar o próximo primo.

@@ -1,0 +1,123 @@
+
+O que é raiz quadrada?
+    A raiz quadrada de um número x é o valor que,
+    multiplicado por ele mesmo, resulta em x.
+
+✍️ Fórmula simples:
+    √x = n   →   se e somente se   n × n = x
+
+📌 Exemplo:
+    √1 = 1 → porque 1 × 1 = 1
+    √4 = 2 → porque 2 × 2 = 4
+    √9 = 3 → porque 3 × 3 = 9
+    √16 = 4 → porque 4 × 4 = 16
+    √10 = irracional → não existe inteiro tal que n × n = 10
+    
+🎯 Para que serve?
+    A raiz quadrada aparece em:
+    📐 Geometria: calcular lados em triângulos (teorema de Pitágoras)
+    🎓 Matemática básica: manipular equações e funções
+    💻 Programação: resolver problemas com distância, 
+        simulações físicas, algoritmos
+    📊 Ciência e engenharia: estatísticas (desvio padrão),
+        física, crescimento exponencial
+    💰 Finanças: análise de risco, fórmulas de capitalização
+
+
+✅ Pontos positivos da função ft_sqrt
+🔹 Fácil de testar valores exatos (como 1, 4, 9, 16, 36, 100...)
+🔹 Permite verificar se um número tem raiz inteira
+🔹 Útil em exercícios de lógica matemática
+🔹 Implementada sem usar funções externas (como sqrt()), 
+    ideal para aprender algoritmos
+
+
+❌ Pontos negativos da função
+🔸 Só lida com raízes inteiras
+    (por exemplo, √10 retorna 0, mesmo que exista ≈ 3.16)
+🔸 Pode ser lenta para números grandes sem otimização
+🔸 Não detecta se uma raiz é “quase”
+    inteira — ignora valores aproximados
+🔸 Não trata raiz quadrada de números negativos
+    (fica 0, mas matematicamente seria número imaginário)
+
+
+Resumo em uma frase:
+    A função ft_sqrt te ajuda a descobrir se existe um número
+    inteiro que, ao ser elevado ao quadrado, resulta no número
+    que tu passaste.
+
+
+
+OBS:
+IRRACIONAL o que é:
+    Um número irracional é aquele que possui infinitas casas decimais 
+    e não possui repetição ou padrão.
+🔹 Ele não pode ser escrito como a/b, onde a e b são inteiros.
+
+🧪 Exemplos de números irracionais
+Número	        Motivo
+√2	            ≈ 1.414213... (sem fim nem padrão)
+π (pi)	        ≈ 3.141592... (também infinito)
+e (Euler)	    ≈ 2.718281...
+√10	            ≈ 3.162277... (não exato)
+
+
+🔁 Comparação com números racionais
+Tipo	    Pode escrever como fração?	 Possui casas decimais finitas ou com repetição?
+Racional	✅ Sim (3/2, 7/4, 0.25)	    ✅ Sim (como 0.333...)
+Irracional	❌ Não	                    ❌ Não (infinito e imprevisível)
+
+
+Em contexto da função ft_sqrt
+Se passar um número como 10, a raiz quadrada é 
+≈ 3.162277… → Como esse resultado não é exato,
+a função retorna 0, pois considera que √10 é irracional.
+
+
+EXERCICIOS:
+📘 Enunciados de exercícios básicos — Raiz quadrada inteira (ft_sqrt)
+🔹 Exercício 1: Verificação de raiz perfeita
+    Objetivo: Escreve um programa que testa se um número possui
+    raiz quadrada inteira Descrição: Dado um valor nb,verifica
+    se existe um i tal que i * i == nb.
+    Exemplo esperado:
+    Entrada: nb = 9 → Saída: Raiz quadrada inteira: 3 
+    Entrada: nb = 10 → Saída: Não possui raiz quadrada inteira
+
+🔹 Exercício 2: Raízes quadradas de 0 até N
+    Objetivo: Imprimir todos os números entre 0 e N
+    que possuem raiz quadrada inteira Descrição:
+    Usar um loop de i = 0 até i <= N, e mostrar os valores
+    com raiz quadrada inteira.
+    Exemplo esperado: Entrada: N = 20 Saída:
+        √0 = 0  
+        √1 = 1  
+        √4 = 2  
+        √9 = 3  
+        √16 = 4
+
+🔹 Exercício 3: Soma das raízes perfeitas entre 0 e N
+    Objetivo: Somar todos os números entre 0 e N que têm raiz
+    quadrada inteira Descrição: Para cada número i, se ft_sqrt(i) != 0,
+    soma i Exemplo esperado:
+    Entrada: N = 25 → Soma esperada: 0 + 1 + 4 + 9 + 16 + 25 = 55
+
+🔹 Exercício 4: Mostrar cálculo manual
+    Objetivo: Mostrar passo a passo como a função verifica
+    se a raiz existe Descrição: Para um número nb, mostra cada
+    valor i testado com i * i, até encontrar ou passar de nb
+    Exemplo esperado: Entrada: nb = 10 Saída:
+        Testando: 0 * 0 = 0  
+        Testando: 1 * 1 = 1  
+        Testando: 2 * 2 = 4  
+        Testando: 3 * 3 = 9  
+        Testando: 4 * 4 = 16 → passou do valor → raiz irracional
+
+🔹 Exercício 5: Detectar números irracionais
+    Objetivo: Criar uma função auxiliar que diz se a
+    raiz de um número é exata ou não Descrição:
+    Retorna 1 se a raiz for exata, ou 0 se for irracional
+    Exemplo esperado:
+    Entrada: nb = 25 → Saída: É exata 
+    Entrada: nb = 26 → Saída: É irracional

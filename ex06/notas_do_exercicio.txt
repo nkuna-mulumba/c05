@@ -1,0 +1,59 @@
+
+💎 O que é um número primo?
+    Um número primo é aquele que só pode ser dividido
+    por 1 e por ele mesmo, sem deixar resto.
+
+📌 Em outras palavras:
+    Um primo tem exatamente dois divisores inteiros
+    positivos → 1 e ele próprio.
+
+
+✍️ Fórmula mais simples (conceitual):
+    Se nb % i == 0, 
+    para algum i entre 2 e nb-1 → então nb NÃO é primo.
+    Se nenhum divisor for encontrado nesse 
+    intervalo → nb É primo.
+
+🎯 Para que serve um número primo?
+    Os primos são blocos fundamentais da matemática, usados em:
+    📐 Teoria dos números e álgebra
+    🔒 Criptografia (segurança digital, RSA, senhas)
+    📊 Problemas de lógica, testes de divisibilidade
+    💻 Algoritmos e estruturas de dados
+    🔎 Compressão, hashing, inteligência artificial (!)
+
+✅ Pontos positivos:
+    São simples de entender e ótimos para aprender lógica
+    Servem como base para sistemas de segurança digital
+    Permitem treinar laços, condicional, e operações 
+    matemáticas
+    São usados para resolver problemas que envolvem otimização 
+    e fatoração
+
+❌ Pontos negativos:
+    Não têm fórmula exata para gerar o próximo primo
+    Para números grandes, é demorado detectar se são
+        primos (sem otimizações)
+    Alguns métodos exigem mais recursos computacionais
+    A função ft_is_prime pode ficar lenta sem técnicas
+        como busca inteligente
+
+
+🧩 Enunciados básicos para praticar
+1️⃣ Verificar se um número é primo
+    Crie um programa que pergunta um número ao usuário e imprime 
+    se é primo ou não usando ft_is_prime.
+
+2️⃣ Listar todos os primos até N
+    Dado um número N, imprime todos os números primos de 0 até N.
+
+3️⃣ Contar quantos primos existem até N
+    Em vez de imprimir, retorna quantos primos existem entre 0 e N.
+
+4️⃣ Somar todos os primos até N
+    Faz a soma total de todos os números primos entre 0 e N.
+
+5️⃣ Mostrar fatoração em primos
+    Desafiante: decompor um número em produto de fatores 
+    primos (ex: 12 → 2×2×3)
+
