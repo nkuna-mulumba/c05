@@ -43,3 +43,41 @@ Desvantagens:
 * Em sistemas embarcados ou com restrição de memória
 * Quando performance é prioridade
 * Para evitar risco de stack overflow com valores altos
+
+
+            Exercicios:
+1️⃣ Enunciado 1: Fatorial de um número positivo
+    - Escreva uma função iterativa chamada ft_iterative_factorial
+        que receba um número inteiro positivo \n \ e retorne o
+        valor de \n! \. Por exemplo:
+    - Entrada: \n = 5 \
+    - Saída esperada: \120 \ (pois \5! = 5 \\times 4 \\times 3
+        \\times 2 \\times 1 \)
+
+2️⃣ Enunciado 2: Fatorial de zero
+    - Modifique a função ft_iterative_factorial para lidar com o 
+        caso especial de \n = 0 \. Por definição, \0! = 1 \.
+        Teste a função com:
+    - Entrada: \n = 0 \
+    - Saída esperada: \1 \
+
+3️⃣ Enunciado 3: Argumentos inválidos
+    - Atualize a função ft_iterative_factorial para retornar \0 \
+        se o número \n \ for negativo (pois o fatorial não é definido para
+        números negativos). Teste a função com:
+    - Entrada: \n = -3 \
+    - Saída esperada: \0 \
+
+4️⃣ Enunciado 4: Teste com números grandes
+    - Teste a função ft_iterative_factorial com um número maior, como \n = 10 \.
+        Certifique-se de que a função calcula corretamente:
+    - Entrada: \n = 10 \
+    - Saída esperada: \3628800 \ (pois \10! = 10 \\times 9 \\times 8 \\times ...
+        \\times 1 \)
+
+5️⃣ Enunciado 5: Fatorial em um intervalo
+    - Escreva uma função que use ft_iterative_factorial para calcular o fatorial
+        de todos os números em um intervalo \[a, b] \, onde \a \\leq b \.
+    Por exemplo:
+    - Entrada: \a = 3, b = 5 \
+    - Saída esperada: \6, 24, 120 \ (pois \3! = 6 \, \4! = 24 \, \5! = 120 \)
