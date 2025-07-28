@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jucongol <jucongol@student.42.fr>          #+#  +:+       +#+        */
+/*   By: jcongolo <jcongolo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-07-23 17:20:42 by jucongol          #+#    #+#             */
-/*   Updated: 2025-07-23 17:20:42 by jucongol         ###   ########.fr       */
+/*   Created: 2025/07/23 17:20:42 by jucongol          #+#    #+#             */
+/*   Updated: 2025/07/28 17:33:33 by jcongolo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,7 @@ int ft_iterative_power(int nb, int power)
     {
         return(1);
     }
-    if(nb == 0)
-    {
-        return(0);
-    }
+
     power_result = 1;
     while(power > 0)//3 > 0; 2 > 0; 1 > 0;
     {
