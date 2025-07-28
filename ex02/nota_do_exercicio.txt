@@ -31,3 +31,31 @@ ft_iterative_power — Potência com loop
     Quando o foco é performance e robustez
     Em ambientes embarcados ou microcontroladores
     Em situações onde recursão é desnecessária ou arriscada
+
+
+1️⃣ ft_power_double
+   Descrição: Escreva uma função que calcula potências com base tipo double.
+   - Aceita expoentes negativos
+   - Retorna o resultado como double
+   - Pode usar o operador *, mas não a função pow() da biblioteca
+
+Prototipo:
+    double ft_power_double(double base, int exponent);
+
+2️⃣ ft_is_power_of_two
+    Descrição: Escreva uma função que recebe um número inteiro n e retorna 1
+    se ele for uma potência de dois, senão 0.
+
+    - Exemplo: 8 → 1, 10 → 0
+    - Não pode usar funções externas
+    Prototipo:
+    int ft_is_power_of_two(int n);
+
+
+3️⃣ ft_nearest_power
+    Descrição: Escreva uma função que recebe um número n e retorna a menor
+    potência de 2 maior ou igual a n.
+    - Exemplo: 5 → 8, 17 → 32
+    - Pode usar laços, mas não bibliotecas externas
+    Prototipo:
+    int ft_nearest_power(int n);
