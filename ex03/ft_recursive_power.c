@@ -6,7 +6,7 @@
 /*   By: jcongolo <jcongolo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/23 19:11:24 by jucongol          #+#    #+#             */
-/*   Updated: 2025/07/28 15:06:29 by jcongolo         ###   ########.fr       */
+/*   Updated: 2025/07/28 16:37:01 by jcongolo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int ft_recursive_power(int nb, int power)
     {
         return(0);
     }
-    else if(power == 0 && nb == 0)
+    else if(power == 0)
     {
         return(1);
     }
